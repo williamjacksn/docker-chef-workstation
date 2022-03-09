@@ -1,0 +1,5 @@
+services:
+  chef-workstation:
+    build: .
+    image: ghcr.io/williamjacksn/chef-workstation
+    init: true
